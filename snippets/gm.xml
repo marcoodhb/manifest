@@ -51,9 +51,12 @@
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixelos-gm" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="pixelos-gm" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="pixelos-gm" />
+  <project path="packages/modules/CellBroadcastService" name="packages_modules_CellBroadcastService" remote="pixelos-gm" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="pixelos-gm" />
+  <project path="packages/modules/IntentResolver" name="packages_modules_IntentResolver" remote="pixelos-gm" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="pixelos-gm" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="pixelos-gm" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixelos-gm" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixelos-gm" />
 
   <!-- System -->

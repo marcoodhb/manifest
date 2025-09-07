@@ -32,7 +32,10 @@
   <remove-project name="packages_modules_Connectivity" remote="PixelOS" />
   <remove-project name="packages_services_Telecomm" remote="PixelOS" />
   <remove-project name="platform/packages/apps/ManagedProvisioning" />
+  <remove-project name="platform/packages/modules/CellBroadcastService" />
+  <remove-project name="platform/packages/modules/IntentResolver" />
   <remove-project name="platform/packages/modules/Permission" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
 
   <!-- System -->
   <remove-project name="system_core" remote="PixelOS" />
