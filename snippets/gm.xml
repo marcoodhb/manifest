@@ -9,6 +9,9 @@
            fetch="https://gitlab.com/kei-space/pixelos"
            revision="refs/heads/fifteen" />
 
+  <remote  name="github" 
+           fetch="https://github.com" />
+  
   <!-- Bootable -->
   <project path="bootable/recovery" name="bootable_recovery" remote="pixelos-gm" />
 
@@ -66,7 +69,7 @@
   <project path="vendor/aosp" name="vendor_aosp" remote="pixelos-gm" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixelos-gm" />
   <project path="vendor/extra" name="vendor_extra" remote="kei" />
-  <project path="vendor/gms" name="vendor_gms" clone-depth="1" remote="kei" />
+  <project path="vendor/gms" name="marcoodhb/vendor_gms-15" clone-depth="1" remote="github" revision="A15" />
   <project path="vendor/overlays/ThemeIcons" name="vendor_overlays_ThemeIcons" remote="pixelos-gm" />
   <project path="vendor/overlays/translations" name="translations" remote="kei" />
 
